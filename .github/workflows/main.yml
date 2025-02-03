@@ -12,8 +12,8 @@ jobs:
         uses: actions/setup-node@v3.6.0
         with:
           node-version: 22
-      - name: Bun install
-        run: bun install
+      - name: npm install
+        run: npm install
       - name: Run tests
         run: npx vitest
       
